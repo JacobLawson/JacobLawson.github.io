@@ -1,0 +1,130 @@
+.projects-container {
+  display: flex;
+  flex-direction: column;
+  padding: 5% 10%;
+  text-align: left;
+}
+
+.projects-container .projects-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 10px;
+}
+
+.projects-container .projects-grid .project {
+  text-align: left;
+}
+
+/* Title hover effect */
+.project h2:hover {
+  text-decoration: underline;
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out;
+}
+
+/* Thumbnail container */
+.project-thumbnail {
+  position: relative;
+  display: inline-block;
+  overflow: hidden;
+  border-radius: 5px;
+  width: 450px;
+  height: 600px;
+}
+
+/* Base image and hover video styles */
+.project-thumbnail img {
+  display: block;
+  max-width: 100%;
+  max-height: 100%;
+  height: auto;
+  transition: opacity 0.5s ease-in-out;
+  border-radius: 5px;
+  
+}
+
+.project-thumbnail video {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+/* Layering for fade effect */
+.project-thumbnail .base {
+  position: relative;
+  z-index: 1;
+  opacity: 1;
+}
+
+.project-thumbnail .hover {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 2;
+  opacity: 0;
+  pointer-events: none;
+}
+
+/* Fade on hover */
+.project-thumbnail:hover .base {
+  opacity: 0;
+}
+
+.project-thumbnail:hover .hover {
+  opacity: 1;
+}
+
+/* Chip overlay stack - hidden by default */
+.project-thumbnail .flex-chips {
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+  z-index: 3;
+  opacity: 0;
+  background: rgba(0, 0, 0, 0.6);
+  padding: 6px 10px;
+  border-radius: 6px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  pointer-events: none;
+  transition: opacity 0.5s ease-in-out;
+}
+
+/* Show chip overlay on hover */
+.project-thumbnail:hover .flex-chips {
+  opacity: 1;
+}
+
+/* MUI chip styling */
+.flex-chips .MuiChip-root {
+  margin-right: 0.5em;
+}
+
+.flex-chips .MuiChip-outlined {
+  background-color: #e0e0e0;
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New", monospace;
+}
+
+.flex-chips .MuiChip-outlined span {
+  color: rgb(39, 40, 34);
+}
+
+/* Responsive layout */
+@media (max-width: 700px) {
+  .projects-container {
+    display: block;
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+
+  .projects-container .projects-grid {
+    display: block;
+  }
+
+  .projects-container .projects-grid .project {
+    padding-bottom: 5%;
+  }
+}
