@@ -1,0 +1,37 @@
+{
+  "files": {
+    "main.css": "/static/css/main.ee439318.css",
+    "main.js": "/static/js/main.18f0fe83.js",
+    "static/js/453.ffa836c8.chunk.js": "/static/js/453.ffa836c8.chunk.js",
+    "static/media/overdrive.mp4": "/static/media/overdrive.7df2c88158a13c219655.mp4",
+    "static/media/rFactor 2.mp4": "/static/media/rFactor 2.528ac4fca13328c10d96.mp4",
+    "static/media/Le Mans.mp4": "/static/media/Le Mans.f5b8577bb9b1be7a4479.mp4",
+    "static/media/Jacob Lawson - 2024 Game Programming Portfolio.mp4": "/static/media/Jacob Lawson - 2024 Game Programming Portfolio.23c1a04ce8d052bb94f2.mp4",
+    "static/media/YKTD2024.mp4": "/static/media/YKTD2024.3983b4bf6288b1283497.mp4",
+    "static/media/legends.mp4": "/static/media/legends.0eb3faf41c260e764729.mp4",
+    "static/media/hop top.mp4": "/static/media/hop top.2c40d198957eb2b86563.mp4",
+    "static/media/planet_mush.mp4": "/static/media/planet_mush.e5d0fbb1b6215a2ca7e0.mp4",
+    "static/media/mirrorchrome.mp4": "/static/media/mirrorchrome.02eaa56710a21ea6450a.mp4",
+    "static/media/mock10.png": "/static/media/mock10.9daa85a8ed56d405338d.png",
+    "static/media/bg-light.png": "/static/media/bg-light.bac0efb485244a522981.png",
+    "static/media/mock01.png": "/static/media/mock01.aba2cc67e514f0878397.png",
+    "static/media/mock06.png": "/static/media/mock06.61c7acab74fc27e513c0.png",
+    "static/media/mock09.png": "/static/media/mock09.f867c39b6dfca6365fbf.png",
+    "static/media/mock11.png": "/static/media/mock11.b26be5a6b3f57ca0c5f4.png",
+    "static/media/mock03.png": "/static/media/mock03.8b12332432f8550cd152.png",
+    "static/media/mock02.png": "/static/media/mock02.210d645a390d3ad2945a.png",
+    "static/media/mock08.png": "/static/media/mock08.4252575b294909c59708.png",
+    "static/media/mock05.png": "/static/media/mock05.483f8ad41a846307c8ee.png",
+    "static/media/mock12.png": "/static/media/mock12.33040fd6f8d20b977aff.png",
+    "static/media/mock04.png": "/static/media/mock04.096a9f262d07e2cf7620.png",
+    "static/media/mock07.png": "/static/media/mock07.d80e14a9e89bdd42a1f5.png",
+    "index.html": "/index.html",
+    "main.ee439318.css.map": "/static/css/main.ee439318.css.map",
+    "main.18f0fe83.js.map": "/static/js/main.18f0fe83.js.map",
+    "453.ffa836c8.chunk.js.map": "/static/js/453.ffa836c8.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ee439318.css",
+    "static/js/main.18f0fe83.js"
+  ]
+}
