@@ -47,7 +47,7 @@ function ProfessionalProjects() {
 				</div>
 			  </a>
 			  <a href="https://store.steampowered.com/app/2399420/Le_Mans_Ultimate/" target="_blank" rel="noreferrer"><h2>Le Mans Ultimate</h2></a>
-			  <p>Some description text.</p>
+			  <p>Le Mans Ultimate is the official world endurance championship and 24 hours of Le Mans game. I worked on the title from day one until its second major update post-launch. I was a junior C++ programmer on this title and spent much of my time working on technical issues throughout the project.</p>
 			</div>
             <div className="project">
 			  <a href="https://store.steampowered.com/app/365960/rFactor_2/" target="_blank" rel="noreferrer">
@@ -63,7 +63,7 @@ function ProfessionalProjects() {
 				</div>
 			  </a>
 			  <a href="https://store.steampowered.com/app/365960/rFactor_2/" target="_blank" rel="noreferrer"><h2>rFactor 2</h2></a>
-			  <p>Some description text.</p>
+			  <p>I worked on the racing simulator rFactor 2 as a junior C++ programmer for 6 months before the team moved on to Le Mans Ultimate. I focused on graphical features and bugs while I got to grips with the proprietary engine the game used.</p>
 			</div>
             <div className="project">
 			  <a href="https://store.steampowered.com/app/2829240/HOP_TOP/" target="_blank" rel="noreferrer">
@@ -79,7 +79,7 @@ function ProfessionalProjects() {
 				</div>
 			  </a>
 			  <a href="https://store.steampowered.com/app/2829240/HOP_TOP/" target="_blank" rel="noreferrer"><h2>HOP TOP</h2></a>
-			  <p>Some description text.</p>
+			  <p>HOP TOP is an indie arcade platformer written in Gamemaker Studio. I was hired as a freelancer on this project after the development began to fall behind on its milestone targets. I spent long hours in my evenings at weekends getting development back on track and improving team communication up until the launch of the game on Steam.</p>
 			</div>
         </div>
     </div>
