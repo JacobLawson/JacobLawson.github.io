@@ -36,6 +36,7 @@ function App() {
 			<About/>
 			<ProfessionalProjects/>
 			<Project/>
+			<Contact/>
         </FadeIn>
         <Footer />
     </div>

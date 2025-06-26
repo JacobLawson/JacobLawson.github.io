@@ -30,7 +30,7 @@ const labelsMiracle = [
 
 function ProfessionalProjects() {
     return(
-    <div className="projects-container" id="projects">
+    <div className="projects-container" id="professionalprojects">
         <h1>Professional Projects</h1>
         <div className="projects-grid">
             <div className="project">

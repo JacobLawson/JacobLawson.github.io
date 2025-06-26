@@ -15,7 +15,19 @@
   color: white;
   box-shadow: 0 4px 30px rgba(0, 0, 0, 0.5);
   line-height: 1.6;
+}
 
+.contact-box {
+  background: rgba(20, 20, 40, 0.6); // frosted blue tint
+  backdrop-filter: blur(10px);
+  border-radius: 16px;
+  padding: 10px 100px 10px; // reduced top space
+  margin-top: 20px;       // pulls it up into video area slightly
+  margin-bottom: 0px;
+  max-width: 1000px;
+  color: white;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.5);
+  line-height: 1.6;
 }
 
 .about-box h1 {
